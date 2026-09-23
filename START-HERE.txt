@@ -1,0 +1,41 @@
+DIGITAL POLICE CASE & DOCKET SYSTEM - START HERE
+================================================
+
+1. Extract the project to a short folder path, for example:
+   C:\Projects\SAPS_Docket_System_COMPLETE
+
+2. BACKEND
+   - Open SAPS.DocketSystem.sln in Visual Studio.
+   - Set SAPS.DocketSystem.Api as Startup Project.
+   - Run it.
+   - Expected API address: http://localhost:5100
+
+3. FRONTEND
+   Open PowerShell:
+
+   cd "C:\Projects\SAPS_Docket_System_COMPLETE\frontend\saps-docket-ui"
+   npm install
+   npm start
+
+   Open http://localhost:4200
+
+4. DEMO ADMIN LOGIN
+   admin@saps.local
+   Admin123!
+
+5. OTHER DEMO USERS
+   commander@saps.local
+   detective@saps.local
+   reception@saps.local
+   complaints@saps.local
+   evidence@saps.local
+
+   Password for all: Admin123!
+
+6. DATABASE
+   SQLite. It creates saps-docket.db automatically in the backend project.
+
+7. IF YOU CHANGED MODELS AND DATABASE ERRORS APPEAR
+   Stop backend, delete saps-docket.db, run backend again.
+
+See README.md for full demo workflow and SMS configuration.

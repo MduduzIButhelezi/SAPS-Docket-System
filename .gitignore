@@ -1,0 +1,12 @@
+.vs/
+.vscode/
+bin/
+obj/
+node_modules/
+dist/
+.angular/
+*.db
+*.db-shm
+*.db-wal
+appsettings.Development.json
+secrets.json
